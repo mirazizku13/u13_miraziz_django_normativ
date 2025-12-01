@@ -1,0 +1,22 @@
+{
+ "orders": [
+ {
+ "id": 1,
+ "customer": "Ali",
+ "total_price": 120.5,
+ "status": "paid"
+ },
+ {
+ "id": 2,
+ "customer": "Vali",
+ "total_price": 75,
+ "status": "pending"
+ },
+ {
+ "id": 3,
+ "customer": "Soli",
+ "total_price": 200,
+ "status": "paid"
+ }
+ ]
+}

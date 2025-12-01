@@ -1,0 +1,21 @@
+{
+ "users": [
+ {
+ "username": "ali",
+ "posts": [
+ {"title": "My first post", "likes": 5},
+ {"title": "Python tips", "likes": 10}
+ ]
+ },
+ {
+ "username": "vali",
+ "posts": [
+ {"title": "Travel blog", "likes": 3}
+ ]
+ },
+ {
+ "username": "gul",
+ "posts": []
+ }
+ ]
+}

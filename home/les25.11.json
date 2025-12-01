@@ -1,0 +1,7 @@
+{
+ "users": [
+   {"username": "user1", "role": "user", "active": true},
+   {"username": "user2", "role": "user", "active": false},
+   {"username": "moder1", "role": "moderator", "active": true}
+ ]
+}
