@@ -5,3 +5,5 @@ print("news")
 
 print("vali")
 print("salom")
+
+print("salom2")
