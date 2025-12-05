@@ -8,3 +8,5 @@ print("salom")
 
 print("salom2")
 print("salom")
+
+print("salom vali")
