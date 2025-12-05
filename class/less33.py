@@ -4,3 +4,4 @@ print(52 + 12)
 print("news")
 
 print("vali")
+print("salom")
