@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    detail
+{% endblock %}
+
+{% block main %}
+    <h1>Product detail</h1>
+
+    <div class="books">
+            <div class="book-card">
+                <h2>{{ Product.title }}</h2>
+                <p>{{ Product.description }}</p>
+                <p>{{ Product.created_time }}</p>
+                <p>{{ Product.updated_time }}</p>
+                <a href="{% url 'book_list' %}"><button>back</button></a>
+            </div>
+    </div>
+{% endblock %}

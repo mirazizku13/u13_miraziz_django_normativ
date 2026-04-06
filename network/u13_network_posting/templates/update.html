@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Post</title>
+</head>
+<body>
+    <h1>Postni tahrirlash ✏️</h1>
+
+    <form method="POST" action="/update">
+        <input type="hidden" name="id" value="{id}">
+
+        <label>Title:</label><br>
+        <input type="text" name="title" value="{title}" required>
+        <br><br>
+
+        <label>Content:</label><br>
+        <textarea name="content" rows="5" cols="40" required>{content}</textarea>
+        <br><br>
+
+        <button type="submit">💾 Saqlash</button>
+    </form>
+
+    <br>
+    <a href="/">⬅️ Orqaga</a>
+</body>
+</html>

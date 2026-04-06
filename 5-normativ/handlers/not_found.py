@@ -1,0 +1,6 @@
+def not_found():
+    return """HTTP/1.1 404 Not Found
+Content-Type: text/html
+
+<h1>404 Not Found ❌</h1>
+"""
