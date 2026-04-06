@@ -1,2 +1,0 @@
-ALTER TABLE postings
-    ADD COLUMN IF NOT EXISTS create_at TIMESTAMP DEFAULT now();
